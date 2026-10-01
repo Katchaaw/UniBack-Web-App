@@ -1,54 +1,54 @@
 ##  ## ##  ## ## #####  ###### ###### ##  ##
-##  ## ### ## ## ##  ## ##  ## ##     ## ## 
-##  ## ###### ## #####  ###### ##     ####  
-##  ## ## ### ## ##  ## ##  ## ##     ## ## 
+##  ## ### ## ## ##  ## ##  ## ##     ## ##
+##  ## ###### ## #####  ###### ##     ####
+##  ## ## ### ## ##  ## ##  ## ##     ## ##
 ###### ##  ## ## #####  ##  ## ###### ##  ##
 
 
 
 ######################################
 ###                                ###
-###   Comment utiliser UniBack ?   ###
+###       How to use UniBack?      ###
 ###                                ###
 ######################################
 
-1. Prérequis :
-	Pour commencer, veuillez installer JavaScript sur votre machine. Il est également indispensable d'avoir un outil permettant d'utiliser PHP et SQL. 
-	Nous vous conseillons -et utiliserons en tant qu'exemple- XAMPP, un ensemble de logiciels permettant de mettre en place un serveur Web local.
-	Les outils de XAMPP nécessaires sont Apache et MySQL.
+1. Requirements:
+    To get started, please install JavaScript on your machine. You also need a tool that allows you to use PHP and SQL.
+    We recommend — and will use as an example — XAMPP, a software package that allows you to set up a local web server.
+    The XAMPP tools required are Apache and MySQL.
 
 
-2. Mise en place de la base de données :
-	Une fois que tout est installé, lancez Apache et MySQL, puis tapez "localhost/phpmyadmin" dans la barre de recherche de votre navigateur.
-	Sur l'onglet de gauche, cliquez sur "Nouvelle base de données".
-	Un nouvel onglet "Création d'une base de données" devrait apparaître devant vous. 
-	Tapez "bddres" dans le champ "Nom de base de données" et appuyez sur le bouton "Créer".
-	La table devrait être vide. Glissez le fichier SQL fourni dans le dossier : "bddres.sql". 
+2. Setting up the database:
+    Once everything is installed, start Apache and MySQL, then enter "localhost/phpmyadmin" in your browser's address bar.
+    In the left-hand tab, click on "New".
+    A new "Create database" section should appear.
+    Enter "bddres" in the "Database name" field and click the "Create" button.
+    The database should be empty. Drag the SQL file provided in the project folder, "bddres.sql", into it.
 
-	Il ne reste plus qu'une étape pour établir la base de données. 
-	Sur le même écran, vous devriez trouver une liste d'onglets cliquable en haut.
-	Cliquez sur "privilèges", puis ajouter un compte d'utilisateur (en bas) et enfin, entrez respectivement :
-		- testadmin
-		- localhost
-		- 123
-		- 123
+    There is only one step left to set up the database.
+    On the same screen, you should find a list of clickable tabs at the top.
+    Click on "Privileges", then add a user account (at the bottom), and enter the following respectively:
+        - testadmin
+        - localhost
+        - 123
+        - 123
 
-	Laissez les autres champs vides, puis cochez tout dans "privilèges globaux". 
-	Enfin exécutez.
+    Leave the other fields empty, then check all options under "Global privileges".
+    Finally, click "Execute".
 
-	Bravo, la base de données est maintenant opérationnelle !
-
-
-3. Lancement du site :
-	Pour accéder au site, entrez "localhost/uniBack". 
-	Créez votre compte et vous voilà prêt à découvrir UniBack !
+    Congratulations, the database is now operational!
 
 
-4. Mode admin :
-	Pour tester le mode admin, tout a déjà été préparé pour vous ! 
-	Pour ce faire, rendez-vous sur la page de connexion. 
-		-> Il faut au préalable vous déconnecter (le cas échéant).
-	
-	Enfin, connectez-vous avec le compte suivant :
-		- Identifiant : root
-		- Mot de passe : admin
+3. Launching the website:
+    To access the website, enter "localhost/uniBack" in your browser.
+    Create your account and you are ready to discover UniBack!
+
+
+4. Admin mode:
+    To test the admin mode, everything has already been prepared for you!
+    To do so, go to the login page.
+        -> You must log out first if you are currently logged in.
+
+    Finally, log in using the following account:
+        - Username: root
+        - Password: admin
